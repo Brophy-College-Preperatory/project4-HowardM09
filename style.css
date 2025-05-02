@@ -1,0 +1,80 @@
+.card {
+    display: block;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+
+a {
+  text-decoration: none; 
+  color: #3498db; /* Set link color */
+  transition: color 0.3s ease; 
+}
+
+
+a:hover {
+  color: #2ecc71; 
+}
+
+a:visited {
+  color: #9b59b6; 
+}
+
+
+a:active {
+  color: #e74c3c;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    color: #333;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+  }
+  
+  h1::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #ff6b6b;
+    margin: 10px auto 0;
+    border-radius: 2px;
+  }
+p {
+  font-family: 'Arial', sans-serif; 
+  font-size: 16px; 
+  line-height: 1.6; 
+  color: #333; 
+  margin-bottom: 20px; 
+  position: relative;
+  padding-left: 20px;
+  border-left: 5px solid #3498db;
+}
+p:hover {
+  background-color: #f7f7f7; 
+  border-left: 5px solid #3498db; 
+  padding-left: 10px; 
+  transition: all 0.3s ease; 
+}
+
+
+background {
+  background-color: #f0f0f0; 
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+}
